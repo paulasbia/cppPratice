@@ -15,7 +15,7 @@ class ConcreteComponentA: public Component
 public:
     virtual void run() override
     {
-        cout << "Executing ConcreteComponentA::run()" << endl;
+        cout << "Executing ConcreteComponentA::run()." << endl;
     }
 };
 
